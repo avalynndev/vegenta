@@ -22,6 +22,6 @@ module.exports = withPWA({
   },
   env: {
     key: process.env.COUNT_API_KEY,
-    URL: process.env.BASE_URL,
+    URL: "api-sd.vercel.app",
   },
 });
