@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running for develop
 
 ### Prerequisites
 First you need to clone the [API REPO](https://github.com/vegenta/vegenta-api) and run it.
-Go to next.config.js file on the root of the project and put your NGROK url inside the env object
+Go to next.config.js file on the root of the project and put your url inside the env object.
 
 ```
  env: {
