@@ -20,7 +20,7 @@ const Navbar = ({ visit }) => {
             src={
               theme.theme == "dark"
                 ? "/animexlogodark.svg"
-                : "/animexlogolight.svg"
+                : "/animexlogolight.png"
             }
           />
         </div>
