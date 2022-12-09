@@ -34,7 +34,7 @@ const Sidebar = ({ visit }) => {
                 src={
                   theme.theme == "dark"
                     ? "/animexlogodarksidebar.svg"
-                    : "/animexlogolightsidebar.svg"
+                    : "/animexlogolightsidebar.png"
                 }
               />
             </div>
