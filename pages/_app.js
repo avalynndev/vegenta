@@ -44,7 +44,7 @@ const App = ({ Component, pageProps }) => {
     <div className={`${theme.background}  `}>
       <Head>
         <meta charset="utf-8" />
-        <link rel="icon" href={"/shuriken.svg"} />
+        <link rel="icon" href={"/vegenta.svg"} />
         <link rel="manifest" href="/manifest.json" />
         <link
           rel="apple-touch-icon"
