@@ -17,11 +17,7 @@ const Navbar = ({ visit }) => {
           <Image
             width={300}
             height={250}
-            src={
-              theme.theme == "dark"
-                ? "/animexlogodark.svg"
-                : "/animexlogolight.png"
-            }
+            src={theme.theme == "dark" ? "/EDIT_IMAGE.svg" : "/EDIT_IMAGE.png"}
           />
         </div>
       </Link>

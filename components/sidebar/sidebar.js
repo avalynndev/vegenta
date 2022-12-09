@@ -32,9 +32,7 @@ const Sidebar = ({ visit }) => {
                 width={140}
                 height={40}
                 src={
-                  theme.theme == "dark"
-                    ? "/animexlogodarksidebar.png"
-                    : "/animexlogolightsidebar.png"
+                  theme.theme == "dark" ? "/EDIT_IMAGE.png" : "/EDIT_IMAGE.png"
                 }
               />
             </div>
