@@ -1,7 +1,7 @@
 const withPWA=require('next-pwa')
 module.exports = withPWA({
   pwa:{dest:'public'},
-  webpack: (config, { isServer }) => {
+  /*webpack: (config, { isServer }) => {
     // Fixes packages that depend on fs/module module
     config.module.rules.push({
       test: /\.svg$/,
@@ -15,7 +15,7 @@ module.exports = withPWA({
       config.node = { fs: "empty", module: "empty" };
     }
 
-    return config;
+    return config;*/
   },
   images: {
     domains: ["gogocdn.net"],
