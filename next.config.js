@@ -19,9 +19,9 @@ module.exports = withPWA({
   },
   images: {
     domains: ["gogocdn.net"],
-  },*/
+  },
   env: {
     key: process.env.COUNT_API_KEY,
     URL: "https://vegenta-api.vercel.app/api/",
-  },
+  },*/
 });
