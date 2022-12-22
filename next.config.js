@@ -22,6 +22,6 @@ module.exports = withPWA({
   },
   env: {
     key: process.env.COUNT_API_KEY,
-    URL: process.env.CLIENT_KEY,
+    URL: "https://vegenta-api.vercel.app/api/",
   },
 });
