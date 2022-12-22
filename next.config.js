@@ -15,8 +15,8 @@ module.exports = withPWA({
       config.node = { fs: "empty", module: "empty" };
     }
 
-    return config;*/
-  },
+    return config;
+  },*/
   images: {
     domains: ["gogocdn.net"],
   },
