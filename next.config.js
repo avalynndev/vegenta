@@ -1,7 +1,7 @@
 const withPWA=require('next-pwa')
 module.exports = withPWA({
   pwa:{dest:'public'},
-  /*webpack: (config, { isServer }) => {
+  webpack: (config, { isServer }) => {
     // Fixes packages that depend on fs/module module
     config.module.rules.push({
       test: /\.svg$/,
@@ -23,5 +23,5 @@ module.exports = withPWA({
   env: {
     key: process.env.COUNT_API_KEY,
     URL: "https://vegenta-api.vercel.app/api/",
-  },*/
+  },
 });
